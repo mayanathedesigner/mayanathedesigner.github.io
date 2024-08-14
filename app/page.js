@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { LuArrowRight, LuArrowLeft } from "react-icons/lu";
 
 export default function Home() {
-  const [currentContent, setCurrentContent] = useState(1);
+  const [currentContent, setCurrentContent] = useState(0);
 
   const handlePrev = () => {
     setCurrentContent((prevContent) => (prevContent === 1 ? 17 : prevContent - 1));

@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { LuArrowRight, LuArrowLeft } from "react-icons/lu";
 
 export default function Home() {
-  const [currentContent, setCurrentContent] = useState(0);
+  const [currentContent, setCurrentContent] = useState(1);
 
   const handlePrev = () => {
     setCurrentContent((prevContent) => (prevContent === 1 ? 17 : prevContent - 1));
@@ -26,7 +26,7 @@ export default function Home() {
             <p className='text-[20px]'>hi, it’s nice to have you here... I’m</p>
             <h1 className='text-[#A6FDAF] font-bold text-[100px]'>mayana, the ux/ui designer.</h1>
             <div className="w-[840px] mx-auto">
-              <p className='text-[20px]'>before, I studied web development and was totally in love with every new piece of knowledge. the app I’m about to introduce was initially thought of as a project to practice something on my own. while facing react though, I wanted more and more to be able to visualize it before trying to type any code. that thought brought us here</p>
+              <p className='text-[20px]'>before, I studied web development and was totally!! in love with every new piece of knowledge. the app I’m about to introduce was initially thought of as a project to practice something on my own. while facing react though, I wanted more and more to be able to visualize it before trying to type any code. that thought brought us here</p>
             </div>
           </div>
         )}
